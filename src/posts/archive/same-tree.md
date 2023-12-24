@@ -1,7 +1,7 @@
 ---
 title: Same Tree
 date: "2023-12-16"
-categories:
+tags:
   - trees
 ---
 

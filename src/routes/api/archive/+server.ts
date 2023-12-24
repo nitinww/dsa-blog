@@ -4,7 +4,7 @@ import { json } from "@sveltejs/kit";
 async function getPosts() {
   let posts: Post[] = [];
 
-  const paths = import.meta.glob("/src/posts/neetcode-150/*.md", {
+  const paths = import.meta.glob("/src/posts/archive/*.md", {
     eager: true,
   });
 

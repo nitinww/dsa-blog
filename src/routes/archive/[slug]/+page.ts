@@ -1,8 +1,11 @@
+export const prerender = true;
+export const csr = false;
+
 import { error } from "@sveltejs/kit";
 
 export async function load({ params }: any) {
   try {
-    const post = await import(`../../../posts/neetcode-150/${params.slug}.md`);
+    const post = await import(`../../../posts/archive/${params.slug}.md`);
 
     return {
       content: post.default,

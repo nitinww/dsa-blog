@@ -1,7 +1,7 @@
 ---
 title: Balanced Binary Tree
 date: "2023-12-16"
-categories:
+tags:
   - trees
 ---
 

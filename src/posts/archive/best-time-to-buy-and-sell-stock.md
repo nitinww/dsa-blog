@@ -1,7 +1,7 @@
 ---
 title: Best Time to Buy And Sell Stock
 date: "2023-12-16"
-categories:
+tags:
   - sliding-window
 ---
 

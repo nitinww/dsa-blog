@@ -1,7 +1,7 @@
 ---
 title: Diameter of Binary Tree
 date: "2023-12-16"
-categories:
+tags:
   - trees
 ---
 

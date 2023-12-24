@@ -5,11 +5,11 @@
 </script>
 
 <article class="w-full">
-  <div class="">
-    {#each data.meta.categories as category}
-      <a href={`/tags/${category}`} class="">&num;{category}</a>
+  <ul class="space-x-2">
+    {#each data.meta.tags as tag}
+      <a href={`/tags/${tag}`} class="">&num;{tag}</a>
     {/each}
-  </div>
+  </ul>
 
   <div class="prose-lg my-4">
     <h1>{data.meta.title}</h1>

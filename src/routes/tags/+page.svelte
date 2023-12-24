@@ -1,13 +1,13 @@
 <script lang="ts">
   export let data;
-  const categories: string[] = data.categories;
+  const tags: string[] = data.tags;
 </script>
 
 <section>
   <ul class="">
-    {#each categories as category}
+    {#each tags as tag}
       <li class="flex justify-between">
-        <a href={`/tags/${category}`} class="text-teal-700">{category}</a>
+        <a href={`/tags/${tag}`} class="text-teal-700">{tag}</a>
       </li>
     {/each}
   </ul>

@@ -1,8 +1,8 @@
-export type Categories = "sveltekit" | "svelte";
+export type Tags = "sveltekit" | "svelte";
 
 export type Post = {
   title: string;
   slug: string;
   date: string;
-  categories: Categories[];
+  tags: Tags[];
 };
